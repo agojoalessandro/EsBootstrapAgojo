@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Bootstrap Grid</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+    <style>
+        .card{
+ 
+  -webkit-transition: width 2s, height 2s, -webkit-transform 2s; 
+  transition: width 2s, height 2s, transform 2s;
+}
+
+.card:hover {
+  
+  -webkit-transform: rotate(180deg); 
+  transform: rotate(360deg);
+}
+</style>
+</head>
+
+<body style="background-color: black;">
+
+    <img src="images/nowyouseeme.jpg" class="img-thumbnail" alt="Nowyouseeme" width="150" height="100" float="left"
+        href="Homepage.html" ;>
+        <div class="btn-group">
+                <div class="movies">
+                    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                        Film
+                    </button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="NowYouSeeMe.html">Now You See Me</a>
+                        <a class="dropdown-item" href="NowYouSeeMe2.html">Now You See Me 2</a>
+        
+                    </div>
+                </div>
+                <div class="characters">
+                    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                        Characters
+                    </button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="MainCharacters.html">Main Characters</a>
+                        <a class="dropdown-item" href="Antagonists.html">Antagonists</a>
+                        <a class="dropdown-item" href="MoreCharacters.html">More</a>
+                    </div>
+                </div>
+                <button type="button" class="btn btn-primary"><a href="TheEye.html" style="color:white;">The Eye</a></button>
+                <button type="button" class="btn btn-primary"><a href="BehindTheScenes.html" style="color:white;">Behind The Scenes</a></button>
+                <button type="button" class="btn btn-primary"><a href="Quotes.html" style="color:white;">Quotes</a></button>
+            </div>
+
+    <div class="row">
+        <div class="card col-sm-6 col-lg-3 mx-auto d-block">
+            <div class="card-body">
+                <h4 class="card-title">Arthur Tressler</h4>
+                <p class="card-text">He is portrayed by Michael Caine.</p>
+            </div>
+            <img class="card-img-bottom " src="images/ArthurTressler.jpg" alt="Card image" style="width:100%">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12" style="background-color:black;">...</div>
+
+    </div>
+    <div class="row">
+        <div class="card col-sm-6 col-lg-3 mx-auto d-block">
+            <div class="card-body">
+                <h4 class="card-title">Walter Mabry</h4>
+                <p class="card-text">He is portrayed by Daniel Radcliffe.</p>
+            </div>
+            <img class="card-img-bottom " src="images/WalterMabry.jpg" alt="Card image" style="width:100%">
+        </div>
+    </div>
+
+
+
+
+
+</body>
+
+</html>
